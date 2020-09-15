@@ -1,0 +1,195 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+
+h1, h2, h3, h4, h5{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, a:hover{
+text-decoration: none ;
+}
+
+ul{
+margin-bottom: 0px;
+}
+
+/**********************Psd code starts*******************/
+
+/**********************header code starts*******************/
+
+.header-section{
+width: 100%;
+}
+
+.top-header{
+width: 100%;
+background: #f5f7fa;
+padding: 10px 0px;
+}
+
+.top-header .info{
+display: block;
+margin: 0px;
+}
+
+.top-header .info li{
+list-style: none;
+display: inline-block;
+
+}
+.top-header .info li a{
+  margin-right: 30px;
+   color: #506a85;
+   font-weight: 550;
+}
+
+.top-header .info .fa{
+margin-right: 8px;
+}
+
+.top-header .social-icons{
+display: block;
+text-align: right;
+}
+
+.top-header .social-icons li{
+list-style: none;
+display: inline-block;  
+}
+.top-header .social-icons li a{
+   margin-left: 20px;
+    color: #506a85;
+}
+
+.top-header .social-icons li a:hover{
+color: #00bc9c;
+transition: .5s;
+}
+
+.bottom-header{
+width: 100%;
+background: #fff;
+}
+
+.bottom-header .nav-style{
+padding: 10px 0px !important;
+}
+
+.bottom-header .nav-style ul{
+margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+color: #00bc9c;
+transition: .5s;
+}
+
+.bottom-header .search-icon a{
+color: #506a85;
+text-align: right;
+}
+
+/**********************header code ends*******************/
+/**********************banner code starts*******************/
+
+.banner-section{
+width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-inner h5{
+font-size: 70px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.carousel-inner p{
+font-size: 16px;
+color: #a3b1bf;
+margin-bottom: 45px;
+}
+
+.carousel-inner .button{
+padding: 10px 30px;
+background: #00bc9c;
+text-transform: uppercase;
+color: #fff;
+font-size: 14px;
+}
+
+.carousel-inner .button:hover{
+background: transparent;
+transition: .5s;
+border: 2px solid #00bc9c;
+}
+/**********************header code ends*******************/
+/**********************who we are code stats*******************/
+
+.who-we-are{
+width: 100%;
+padding: 100px 0px;
+}
+
+.who-we-are .title{
+  text-align: center;
+  padding-bottom: 60px;
+}
+.who-we-are .title h5{
+    color: #506a85;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.who-we-are .title p {
+    color: #506a85;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin-bottom: 0px;
+}
+
+.who-we-are .media{
+padding: 15px 0px;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 2rem!important;
+}
+
+.who-we-are .media h5{
+color: #506a85;
+    font-weight: 700;
+}
+.who-we-are .media p{
+color: #506a85;
+margin-bottom: 0px;
+}
+/**********************who we are code ends*******************/
+
+
+
